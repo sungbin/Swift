@@ -1,3 +1,4 @@
+//오류 수정 필요
 //: A Cocoa based Playground to present user interface
 
 import AppKit
@@ -16,7 +17,7 @@ var groups:[Int] = [10, 9, 4, 2]
 
 meetingRooms += ["EF"] //9번에서 언급한 부분
 
-let currentSpeed:[Int] = 100
+var currentSpeed:[Int] = 100
 currentSpeed += 10
 
 var speedHistory:[Int] = []
