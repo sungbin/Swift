@@ -17,13 +17,13 @@ var groups:[Int] = [10, 9, 4, 2]
 
 meetingRooms += ["EF"] //9번에서 언급한 부분
 
-var currentSpeed:[Int] = 100
-currentSpeed += 10
+var currentSpeed:[Int] = [100]
+currentSpeed += [10]
 
 var speedHistory:[Int] = []
-speedHistory += [currentSpeed]
+speedHistory += currentSpeed
 
-let gpsSpeed0513= 114.1
+let gpsSpeed0513 = 114.1
 speedHistory.append(Int(gpsSpeed0513))
 
 speedHistory.last
