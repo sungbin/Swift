@@ -7,6 +7,7 @@ import PlaygroundSupport
 /*:Swift Collections의 Dictionary와 Set을 배웠다.
 //:자바와 크게 다르지 않다.
 //:Dictionary는 key값과 value값을 가지고 있는 것이 자바의 ArrayList와 비슷하다.
+++++ :[String:Int:String]과 같이 3개 이상은 동시에 못넣는다.
  
 //:Set은 마치 집합의 개념과 흡사하다. 동일하게 중복은 허용하지 않는다.
 //:Set에는 Intersect, Subtract, Union, ExclusiveOR가 존재하고 각각 교집합, 집합빼기 집합의 부분 집합, 합집합, 합집합에서 교집합을 뺀 부분집합을 의미한다.*/

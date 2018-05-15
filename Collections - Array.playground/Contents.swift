@@ -11,6 +11,7 @@ import PlaygroundSupport
 
 //String에 index를 추가하는 방법은 +=말고도 Array.append로 추가할 수 도 있다.
 //또한, Array.first, Array.last, Array[0]와 같은 방법으로도 접근이 가능하다.
+//Array.insert("String", atIndex: 0)와 같은 방식으로 끼워 넣을 수 있다.
 
 var meetingRooms:Array<String> = ["AB", "CD"]
 var groups:[Int] = [10, 9, 4, 2]
