@@ -2,5 +2,10 @@
 <Timeline
    version = "3.0">
    <TimelineItems>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/imseongbin/Documents/Swift/Control%20Flow.playground#CharacterRangeLen=281&amp;CharacterRangeLoc=755&amp;EndingColumnNumber=1&amp;EndingLineNumber=55&amp;StartingColumnNumber=0&amp;StartingLineNumber=43&amp;Timestamp=548090276.492255"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
    </TimelineItems>
 </Timeline>
