@@ -30,6 +30,9 @@ import PlaygroundSupport
 //for문에서 array, Dictionary이 사용 가능하다.
 //switch에서는 예외처리를 안해준 것이 존재하면 오류가 난다.
 
+//case let [variable] where [variable] > [조건]
+// -> 이런 where문법도 존재한다.
+
 let myfriend :Set = ["혜윰", "지민", "석진"]
 let wanserfiend :Set = ["JC", "혜윰", "완서"]
 
