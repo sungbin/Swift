@@ -23,6 +23,16 @@ nil에 접근 시 프로그램이 크래시를 일으킨다. (= 값이 없는 �
  !가 많은 코드는 나쁜 코드다
  */
 
+/* +++ 05.17
+ Optional Binding
+ if let으로 옵셔널이 아닌 새로운 상수를 만들어 사용
+ 새롭게 만들어진 상수는 옵셔널이 아니므로 편하게 사용
+ Implicitly Unwrapped Optional
+ 옵셔널 사용을 편하게 하기 위한 편의장치
+ 어쩔 수 없이 옵셔널이지만 실행 중 항상 값을 가지는 게 거의 확실
+ 선언시에 !를 사용하면 옵셔널이지만 옵셔널이 아닌 것 처럼 사용
+ */
+
 var title : String = "Storyboard Prototyping"
 var rating : [Int]? = nil
 var supportURL : String? = nil
@@ -34,12 +44,13 @@ var supportURL : String? = nil
 supportURL = "handong.edu" //이것이 있을 때와 없을 때의 결과 차이를 보아라.
 
 var bookDescription:String =  "\(title)"
-if rating != nil {
-    bookDescription += "has \(rating!.count) ratings."
+if let theRatings = rating { //optional 해준 것에 !를 붙히기 귀찮기 때문에 이런 식으로 해줄 수 있는데, 이것을 optional binding
+    bookDescription += "has \(theRatings.count) ratings."
 }
-if supportURL != nil {
-    bookDescription += "\r\n\(supportURL!)"
+if let theURL = supportURL{
+    bookDescription += "\r\n support web page : \n\(theURL)"
 }
+
 print("\(bookDescription)")
 
 
