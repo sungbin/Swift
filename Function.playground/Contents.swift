@@ -34,7 +34,7 @@ import PlaygroundSupport
 var ratings : [Double]
 ratings = [4.5, 6.0, 8.0, 9.5]
 
-func ratingrecord (history:[Double]) -> (average:Double, min:Double, max:Double){
+func ratingrecord (history : [Double]) -> (average:Double, min:Double, max:Double){
     var sum = 0.0, min = history[0], max = history[0]
     
     for value in history{
@@ -46,5 +46,6 @@ func ratingrecord (history:[Double]) -> (average:Double, min:Double, max:Double)
     return (average, min, max)
 }
 
-let record = ratingrecord(ratings)
+let record = ratingrecord(history:ratings)
+print("average: \(record.average)\nmin: \(record.min)\nmax: \(record.max)")
 
