@@ -1,6 +1,7 @@
 # my Swift study :)
 ## 2018
 
+### 참고 <https://devxoul.gitbooks.io/ios-with-swift-in-40-hours/content/Chapter-1/>
 ### Programmers에 있는 Swift강의를 통해 공부를 시작한다.
  <https://programmers.co.kr/learn/courses/4>
 
