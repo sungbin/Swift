@@ -4,6 +4,7 @@ import AppKit
 import PlaygroundSupport
 
 // -> 질문.. enum은 struct에서만 사용 가능한 것인가??
+// -> 문법이 정확하게 이해가지 않는다, enum문 안에서 .은 어떤 역할을 하는 것일까???
 
 /**
  연관성 있는 값들의 그룹을 만들어 Type-Safe 하게 사용하는 것이다.
@@ -53,4 +54,5 @@ struct Status {
 var callStatus = Status(title: "Call to JB", time: 10*60, type:.Call)
 var reportStatus = Status(title: "Report to JB", time: nil, type:Status.StatusType.Report)
 
+callStatus.type
 
