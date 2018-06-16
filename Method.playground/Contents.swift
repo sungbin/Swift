@@ -1,5 +1,13 @@
 //: Playground - noun: a place where people can play
 
+/*
+ 메소드란 인스턴스 안에 종속된 함수
+ 인스턴스에서 필요한 기능들 함수로 만들어 넣은 것
+ 클래스, 구조체, 이너머레이션 모두 인스턴스 메소드를 가질 수 있다.
+ self는 그 자신을 가리킨다
+ */
+
+
 import Cocoa
 
 struct Task{
