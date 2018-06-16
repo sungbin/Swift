@@ -26,5 +26,5 @@
 6월 3일 :Add Initialize Playground
 
 6월16일 :Add Method Playground
-
+	:Add Enum Associated Value Playground
 
