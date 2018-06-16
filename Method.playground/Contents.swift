@@ -7,7 +7,6 @@
  self는 그 자신을 가리킨다
  */
 
-
 import Cocoa
 
 struct Task{
@@ -72,20 +71,19 @@ class Employee {
         }
         return nil
     }
+}
+var todayTask:[Task] = []
     
-    var todayTask:[Task] = []
+let me:Employee = Employee(name: "Alex", phone: "010-1234-5678")
     
-    let me:Employee = Employee(name: "Alex", phone: "010-1234-5678")
+let toby = Employee(name: "Toby")
+toby.phoneNumber = "011-5678-1234"
     
-    let toby = Employee(name: "Toby")
-    toby.phoneNumber = "011-5678-1234"
+me.boss = toby
+me.report()
     
-    me.boss = toby
-    me.report()
-    
-    var reportTask = Task (type: .Report, owner: me)
-    todayTask += [reportTask]
-    if let callTask = me.callTaskBoss() {
-        todayTask += [callTask]
-    }
+var reportTask = Task (type: .Report, owner: me)
+todayTask += [reportTask]
+if let callTask = me.callTaskBoss() {
+    todayTask += [callTask]
 }
