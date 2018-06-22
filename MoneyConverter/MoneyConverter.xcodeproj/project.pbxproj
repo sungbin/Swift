@@ -14,6 +14,7 @@
 		1999F26B20DA85FD00DA7D6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1999F26920DA85FD00DA7D6B /* LaunchScreen.storyboard */; };
 		1999F27620DA85FD00DA7D6B /* MoneyConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1999F27520DA85FD00DA7D6B /* MoneyConverterTests.swift */; };
 		1999F28120DA85FD00DA7D6B /* MoneyConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1999F28020DA85FD00DA7D6B /* MoneyConverterUITests.swift */; };
+		19E1508520DCD543009A4E89 /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E1508420DCD543009A4E89 /* Money.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1999F27C20DA85FD00DA7D6B /* MoneyConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1999F28020DA85FD00DA7D6B /* MoneyConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyConverterUITests.swift; sourceTree = "<group>"; };
 		1999F28220DA85FD00DA7D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19E1508420DCD543009A4E89 /* Money.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				1999F26020DA85FB00DA7D6B /* AppDelegate.swift */,
 				1999F26220DA85FB00DA7D6B /* ViewController.swift */,
 				1999F26420DA85FB00DA7D6B /* Main.storyboard */,
+				19E1508420DCD543009A4E89 /* Money.swift */,
 				1999F26720DA85FD00DA7D6B /* Assets.xcassets */,
 				1999F26920DA85FD00DA7D6B /* LaunchScreen.storyboard */,
 				1999F26C20DA85FD00DA7D6B /* Info.plist */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19E1508520DCD543009A4E89 /* Money.swift in Sources */,
 				1999F26320DA85FB00DA7D6B /* ViewController.swift in Sources */,
 				1999F26120DA85FB00DA7D6B /* AppDelegate.swift in Sources */,
 			);
