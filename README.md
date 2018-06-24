@@ -30,3 +30,5 @@
 
 6월20일 :complete Proejct MoneyConverter
 6월22일 :implement MoneyConverter6월22일 :implement MoneyConverter6월22일 :implement MoneyConverter
+6월24일 :Start MeetingRoom project
+	 Static Table View
