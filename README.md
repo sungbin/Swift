@@ -34,14 +34,17 @@
 
 6월24일: Start MeetingRoom project
 
-	 Static Table View
+       Static Table View
 
 6월25일: Study principle of 'Dynamic Table View - DataSource'
 
-	 Check Master Detail Template1
+       Check Master Detail Template1
 
 ### https://www.edwith.org/iosbasic/joinLectures/4412
 8월 4일: Start 'BoardGameAdminster' Project(보드게임 대여와 관리를 도와주는 어플), Making Draft
 
        : https://www.cocoacontrols.com/controls에서 괜찮은 Interface를 찾는중.. 
-https://www.cocoacontrols.com/controls/parallaxheader를 import해서 분석하는중..
+
+       https://www.cocoacontrols.com/controls/parallaxheader를 import해서 분석하는중..
+
+       : Interface 그리는중..
