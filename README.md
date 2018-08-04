@@ -40,3 +40,6 @@
 
 	 Check Master Detail Template1
 
+### https://www.edwith.org/iosbasic/joinLectures/4412
+8월 4일 :
+
