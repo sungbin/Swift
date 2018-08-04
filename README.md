@@ -28,7 +28,7 @@
 6월16일: Add Method Playground
 	 Add Enum Associated Value Playground
 
-6월20일: :complete Proejct MoneyConverter
+6월20일: complete Proejct MoneyConverter
 
 6월22일: implement MoneyConverter
 
@@ -36,10 +36,10 @@
 
 	 Static Table View
 
-6월25일 :Study principle of 'Dynamic Table View - DataSource'
+6월25일: Study principle of 'Dynamic Table View - DataSource'
 
 	 Check Master Detail Template1
 
 ### https://www.edwith.org/iosbasic/joinLectures/4412
-8월 4일 :
+8월 4일: Start 'BoardGameAdminster' Project(보드게임 대여와 관리를 도와주는 어플), Making Draft
 
